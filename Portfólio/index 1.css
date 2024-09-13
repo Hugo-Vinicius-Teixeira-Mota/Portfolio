@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+}
+
+main{
+    margin: auto;
+}
+
+section{
+    width: 500px;
+    height: 250px;
+    display: flex;
+}
+
+div{
+    margin: auto;
+    border: none;
+}

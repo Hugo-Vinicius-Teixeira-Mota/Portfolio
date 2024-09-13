@@ -1,0 +1,304 @@
+*{
+    transition: 0.5s;
+}
+
+body{
+    background: rgb(225, 225, 225);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+    cursor: default;
+}
+
+main{
+    padding: 0 1% 0 1%;
+}
+
+ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+a{
+    margin: 5px;
+}
+
+button{
+    padding: 5px;
+    background: rgb(200, 200, 200);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+section{
+    background: rgb(255, 255, 255);
+    border: 5px solid rgb(200, 200, 200);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+
+div{
+    padding: 10px;
+    border-top: 2px dotted;
+}
+
+div#simpletext{
+    border: none;
+}
+
+div#simpletext p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+figure{
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    background: url(pexels-pixabay-147411.jpg);
+    background-size: 750px;
+    background-position: center;
+    color: rgba(0, 0, 0, 0);
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    cursor: not-allowed;
+}
+
+figcaption{
+    padding: 10px;
+    width: 580px;
+    height: 380px;
+    text-align: justify;
+    text-indent: 25px;
+    text-shadow: none;
+    border-radius: 20px;
+}
+
+video{
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+
+audio{
+    border-radius: 99px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+
+table{
+    margin: auto;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color: rgb(200, 200, 200);
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    text-shadow: none;
+    cursor: cell;
+}
+
+th{
+    border-radius: 5px;
+}
+
+td{
+    border-radius: 5px;
+}
+
+fieldset{
+    margin: 5px 0 0 0;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+input{
+    margin: 0 5px 0 5px;
+    padding: 5px;
+    background: rgb(200, 200, 200);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+input::placeholder{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+input[placeholder="Senha"]{
+    margin: 0 0 0 30px;
+}
+
+input[placeholder="Comfirmar senha"]{
+    margin: 0 0 0 10px;
+}
+
+img{
+    margin: 0 0 -6.5px 5px;
+    width: 20px;
+    cursor: pointer;
+}
+
+select{
+    padding: 5px;
+    background: rgb(200, 200, 200);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+label select{
+    width: 75px;
+}
+
+option{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 10pt;
+}
+
+optgroup{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+input[type="range"]{
+    height: 1px;
+    box-shadow: none;
+}
+
+textarea{
+    padding: 5px;
+    background: rgb(200, 200, 200);
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    resize: none;
+}
+
+textarea::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+div#extra fieldset{
+    display: none;
+}
+
+aside select{
+    position: fixed;
+    right: 0;
+    top: 0;
+    border-radius: 0 0 0 10px;
+    cursor: help;
+}
+
+footer{
+    font-style: italic;
+}
+
+header label:hover{
+    font-size: 15pt;
+}
+
+a button:hover{
+    color: rgb(64, 0, 128);
+    text-decoration: underline;
+}
+
+button:hover{
+    font-size: 15pt;
+    border-radius: 15px;
+}
+
+h1:hover{
+    font-size: 30pt;
+}
+
+h2:hover{
+    font-size: 20pt;
+}
+
+figure:hover{
+    transform: scale(1.05);
+    background-size: 620px;
+}
+
+figcaption:hover{
+    background: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+audio:hover{
+    transform: scale(1.25);
+}
+
+th:hover{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+td:hover{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+input:focus{
+    box-shadow: none;
+}
+
+input:focus::placeholder{
+    box-shadow: none;
+}
+
+img:hover{
+    transform: scale(1.25);
+}
+
+label select:focus{
+    box-shadow: none;
+}
+
+textarea:focus{
+    box-shadow: none;
+    resize: vertical;
+}
+
+textarea:focus::placeholder{
+    box-shadow: none;
+    resize: vertical;
+}
+
+h3:hover{
+    font-size: 15pt;
+}
+
+aside select:hover{
+    font-size: 15pt;
+    border-radius: 0 0 0 15px;
+}
+
+footer p:hover{
+    font-size: 15pt;
+}
+
+.white{
+    color: rgb(255, 255, 255);
+}
+
+.white::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+a button.white:hover{
+    color: rgb(255, 255, 255);
+}
+
+a button.color:hover{
+    color: rgb(192, 128, 255);
+}
